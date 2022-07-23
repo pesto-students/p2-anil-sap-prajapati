@@ -1,0 +1,35 @@
+.App{
+  text-align: center;
+}
+
+#UrlInput {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 50vw;
+
+}
+
+#SubmitButtom {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+
+.urlList{
+  list-style: none;
+}
+
+.urlList li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.urlList>li>button,span{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
